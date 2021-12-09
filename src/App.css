@@ -1,15 +1,54 @@
-.App {
+body {
+  background-color: #000;
+  font-family: 'Orbitron', sans-serif;
   text-align: center;
+  padding-top: 50px;
 }
 
-.Time {
-  font-size: 30px;
+.App-title {
+  color: #ffa52f;
+  margin-top: 50px;
+}
+
+.App {
+  margin: 0 auto;
+  padding: 20px;
+  width: fit-content;
+  border-radius: 10px;
+  color: #ffa52f;
+  border: #ffa52f 2px solid;
+  line-height: 100px;
+  text-align: center;
+  box-shadow: 0 14px 28px #fcfcfc40, 0 10px 10px #fff7f738;
+}
+
+.stopwatch {
+  font-size: 45px;
   margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  transition: 0.3s;
 }
 
-.Button {
+.stopwatch:hover {
+  transform: scale(1.2);
+}
+
+.buttons-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
   font-size: 20px;
-  width: 100px;
+  width: 80px;
+  height: 80px;
+  background-color: #ffa52f;
+  border-radius: 50%;
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
 }
