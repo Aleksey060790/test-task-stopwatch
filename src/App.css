@@ -1,38 +1,54 @@
-.App {
+body {
+  background-color: #000;
+  font-family: 'Orbitron', sans-serif;
   text-align: center;
+  padding-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-title {
+  color: #ffa52f;
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App {
+  margin: 0 auto;
+  padding: 20px;
+  width: fit-content;
+  border-radius: 10px;
+  color: #ffa52f;
+  border: #ffa52f 2px solid;
+  line-height: 100px;
+  text-align: center;
+  box-shadow: 0 14px 28px #fcfcfc40, 0 10px 10px #fff7f738;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.stopwatch {
+  font-size: 45px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.stopwatch:hover {
+  transform: scale(1.2);
+}
+
+.buttons-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  font-size: 20px;
+  width: 80px;
+  height: 80px;
+  background-color: #ffa52f;
+  border-radius: 50%;
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  transition: 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover {
+  transform: scale(1.2);
 }
