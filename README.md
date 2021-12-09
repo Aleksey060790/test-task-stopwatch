@@ -1,6 +1,6 @@
 React stopwatch with RxJS
 
-[Demo Link](https://aleksey060790.github.io/test-task-stopwatch)
+[Demo Link](https://Aleksey060790.github.io/test-task-stopwatch/)
 
 How to install:
 
